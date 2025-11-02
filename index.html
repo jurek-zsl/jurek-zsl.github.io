@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jurekdev - Heorhii Lishafai</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg
+         xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text
+        y=%22.9em%22 font-size=%2290%22>🐈</text></svg>" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html">🧑‍💻 jurekdev</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="files.html">Files</a></li>
+                <li>
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section class="hero">
+            <div class="container">
+                <div class="profile-card">
+                    <div class="profile-header">
+                        <img src="https://github.com/jurek-zsl.png" alt="jurekdev avatar" class="avatar" id="avatar">
+                        <div class="profile-info">
+                            <h1 class="nickname">jurekdev</h1>
+                            <div class="location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Living in <strong>Málaga, Spain</strong> 🇪🇸</span>
+                            </div>
+                            <div class="location">
+                                <i class="fas fa-flag"></i>
+                                <span>Originally from <strong id="origin-country">Ukraine</strong> 🇺🇦</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="weather-widget" id="weather-widget">
+                        <div class="weather-loading">
+                            <i class="fas fa-spinner fa-spin"></i> Loading weather...
+                        </div>
+                    </div>
+
+                    <div class="about-section">
+                        <h2>About Me</h2>
+                        <p>
+                            Hi! I'm a passionate developer creating innovative solutions and open-source projects. 
+                            I love building web applications, experimenting with new technologies, and sharing 
+                            my knowledge with the community.
+                        </p>
+                        <p>
+                            Check out my projects below and feel free to reach out through any of my social channels!
+                        </p>
+                    </div>
+
+                    <div class="social-links">
+                        <h3>Connect with me</h3>
+                        <div class="social-buttons">
+                            <a href="https://github.com/jurek-zsl" target="_blank" rel="noopener noreferrer" class="social-btn github">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://buymeacoffee.com/jurekzsl" target="_blank" rel="noopener noreferrer" class="social-btn buymeacoffee">
+                                <i class="fas fa-coffee"></i>
+                                <span>Buy Me a Coffee</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="quick-links">
+                    <h2>Quick Access</h2>
+                    <div class="quick-link-cards">
+                        <a href="projects.html" class="quick-link-card">
+                            <i class="fas fa-code"></i>
+                            <h3>Projects</h3>
+                            <p>Explore my latest work</p>
+                        </a>
+                        <a href="files.html" class="quick-link-card">
+                            <i class="fas fa-download"></i>
+                            <h3>Files</h3>
+                            <p>Download resources</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Built with 🤍</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

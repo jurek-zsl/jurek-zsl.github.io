@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - jurekdev</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html">🧑‍💻 jurekdev</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="files.html">Files</a></li>
+                <li>
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section class="projects-section">
+            <div class="container">
+                <div class="page-header">
+                    <h1>My Projects</h1>
+                    <p>Explore the projects I've built with passion and dedication</p>
+                </div>
+
+                <div class="filter-bar">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="free">Free</button>
+                    <button class="filter-btn" data-filter="paid">Paid</button>
+                    <button class="filter-btn" data-filter="opensource">Open Source</button>
+                    <button class="filter-btn" data-filter="macos">macOS</button>
+                    <button class="filter-btn" data-filter="windows">Windows</button>
+                    <button class="filter-btn" data-filter="linux">Linux</button>
+                    <button class="filter-btn" data-filter="crossplatform">Cross-Platform</button>
+                </div>
+
+                <div class="projects-grid" id="projects-grid">
+                    <!-- Projects will be loaded dynamically -->
+                    <div class="loading-spinner">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <p>Loading projects...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Built with 🤍</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

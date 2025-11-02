@@ -1,0 +1,21 @@
+{
+  "personalInfo": {
+    "nickname": "jurekdev",
+    "originCountry": "Ukraine",
+    "originFlag": "🇺🇦",
+    "currentCountry": "Spain",
+    "currentFlag": "🇪🇸",
+    "city": "Malaga",
+    "latitude": 36.7213,
+    "longitude": -4.4214,
+    "avatar": "https://github.com/jurek-zsl.png"
+  },
+  "socialLinks": {
+    "github": "https://github.com/jurek-zsl",
+    "buyMeACoffee": "https://buymeacoffee.com/jurekzsl"
+  },
+  "about": {
+    "intro": "Hi! I'm a passionate developer creating innovative solutions and open-source projects.",
+    "description": "I love building web applications, experimenting with new technologies, and sharing my knowledge with the community."
+  }
+}

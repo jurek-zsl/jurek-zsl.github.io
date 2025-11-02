@@ -1,0 +1,21 @@
+[
+    {
+        "id": "1",
+        "name": "antiQuarantine",
+        "description": "Simple MacOS CLI tool for managing quarantine attributes recursively",
+        "stack": ["Go"],
+        "tags": ["Free", "OpenSource", "Homebrew"],
+        "releaseDate": "2025-09-27",
+        "features": [
+        "Removes the com.apple.quarantine extended attribute from files on macOS.",
+        "Detects whether files are quarantined without modifying them.",
+        "Supports batch operations over directories for scanning/removal.",
+        "Easy installation and upgrades via Homebrew.",
+        "Easy to build from source."
+        ],
+        "links": {
+            "github": "https://github.com/jurek-zsl/homebrew-antiQuarantine",
+            "download": "https://jurekdev.qzz.io/files/antiQuarantine.zip"
+        }
+    }
+]

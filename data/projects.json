@@ -4,7 +4,7 @@
         "name": "antiQuarantine",
         "description": "Simple MacOS CLI tool for managing quarantine attributes recursively",
         "stack": ["Go"],
-        "tags": ["Free", "OpenSource", "Homebrew", "macOS"],
+        "tags": ["Free", "Open Source", "Homebrew"],
         "releaseDate": "2025-09-27",
         "features": [
         "Removes the com.apple.quarantine extended attribute from files on macOS.",
@@ -16,6 +16,24 @@
         "links": {
             "github": "https://github.com/jurek-zsl/homebrew-antiQuarantine",
             "download": "https://jurekdev.qzz.io/files/antiQuarantine.zip"
+        }
+    },
+        {
+        "id": "2",
+        "name": "Mumist",
+        "description": "Public Mumble server list and user counter",
+        "stack": ["HTML", "CSS", "JavaScript", "SQLite", "Node.js"],
+        "tags": ["Free", "Closed Source", "Web"],
+        "releaseDate": "2025-09-26",
+        "features": [
+        "Shows a list of all public Mumble servers with updates every 15 minutes.",
+        "Displays the number of users currently connected to each server.",
+        "Supports searching and filtering of servers by various criteria.",
+        "Shows total user count and statistics graph.",
+        "Map of all public mumble servers worldwide."
+        ],
+        "links": {
+            "demo": "https://mumist.eu"
         }
     }
 ]

@@ -261,10 +261,10 @@ async function loadProjects() {
 // Get custom tag class based on tag name hash
 function getCustomTagClass(tag) {
     const knownTags = [
-        'free', 'opensource', 'paid', 'premium', 'closed-source',
-        'macos', 'windows', 'linux', 'crossplatform', 'fork'
+        'free', 'opensource', 'paid', 'premium', 'closed-source', 'closedsource',
+        'macos', 'windows', 'linux', 'crossplatform', 'fork', 'web'
     ];
-    const lowerTag = tag.toLowerCase();
+    const lowerTag = tag.toLowerCase().replace(/[\s-]/g, '');
     
     // If it's a known tag, use the predefined class
     if (knownTags.includes(lowerTag)) {
@@ -287,8 +287,10 @@ function sortTags(tags) {
         'paid': 2,
         'premium': 2,
         'opensource': 3,
+        'closedsource': 4,
         'closed-source': 4,
         'fork': 5,
+        'web': 6,
         'macos': 10,
         'windows': 11,
         'linux': 12,
@@ -296,8 +298,8 @@ function sortTags(tags) {
     };
     
     return tags.slice().sort((a, b) => {
-        const aPriority = tagPriority[a.toLowerCase()] || 100;
-        const bPriority = tagPriority[b.toLowerCase()] || 100;
+        const aPriority = tagPriority[a.toLowerCase().replace(/[\s-]/g, '')] || 100;
+        const bPriority = tagPriority[b.toLowerCase().replace(/[\s-]/g, '')] || 100;
         
         if (aPriority !== bPriority) {
             return aPriority - bPriority;

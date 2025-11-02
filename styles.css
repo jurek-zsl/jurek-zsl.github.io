@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #6366f1;
-    --secondary-color: #8b5cf6;
+    --primary-color: #46ceff;
+    --secondary-color: #1e78ff;
     --accent-color: #ec4899;
     --text-primary: #1f2937;
     --text-secondary: #6b7280;
@@ -456,17 +456,17 @@ body {
 }
 
 .tag.free {
-    background: linear-gradient(135deg, #10b981, #059669);
+    background: linear-gradient(135deg, #4ADE80, #16A34A);
     color: white;
 }
 
 .tag.opensource {
-    background: linear-gradient(135deg, #3b82f6, #2563eb);
+    background: linear-gradient(135deg, #3b82f6, #1D4ED8);
     color: white;
 }
 
 .tag.paid {
-    background: linear-gradient(135deg, #f59e0b, #d97706);
+    background: linear-gradient(135deg, #FACC15, #EAB308);
     color: white;
 }
 
@@ -476,33 +476,44 @@ body {
 }
 
 .tag.closed-source {
-    background: linear-gradient(135deg, #6b7280, #4b5563);
+    background: linear-gradient(135deg, #9CA3AF, #6B7280);
     color: white;
 }
 
 /* Platform tags */
 .tag.macos {
-    background: linear-gradient(135deg, #000000, #333333);
+    background: linear-gradient(135deg, #8B5CF6, #7C3AED);
     color: white;
 }
 
 .tag.windows {
-    background: linear-gradient(135deg, #0078d4, #005a9e);
+    background: linear-gradient(135deg, #2563EB, #1E40AF);
     color: white;
 }
 
 .tag.linux {
-    background: linear-gradient(135deg, #fcc624, #f7a800);
-    color: #000;
+    background: linear-gradient(135deg, #497316, #EA580C);
+    color: white;
 }
 
 .tag.crossplatform {
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #EC4899, #EA580C);
     color: white;
 }
 
 .tag.fork {
     background: linear-gradient(135deg, #be185d, #831843);
+    color: white;
+}
+
+.tag.web {
+    background: linear-gradient(135deg, #06B6D4, #0284C7);
+    color: white;
+}
+
+.tag.closedsource,
+.tag.closed-source {
+    background: linear-gradient(135deg, #6b7280, #4b5563);
     color: white;
 }
 

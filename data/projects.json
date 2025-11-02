@@ -4,7 +4,7 @@
         "name": "antiQuarantine",
         "description": "Simple MacOS CLI tool for managing quarantine attributes recursively",
         "stack": ["Go"],
-        "tags": ["Free", "OpenSource", "Homebrew"],
+        "tags": ["Free", "OpenSource", "Homebrew", "macOS"],
         "releaseDate": "2025-09-27",
         "features": [
         "Removes the com.apple.quarantine extended attribute from files on macOS.",
